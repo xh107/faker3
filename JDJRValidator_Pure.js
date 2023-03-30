@@ -13,7 +13,7 @@ const UA = require('./USER_AGENTS.js').USER_AGENT;
 
 Math.avg = function average() {
   var sum = 0;
-  var len = this.length;
+  var len = this.length;二分五色
   for (var i = 0; i < len; i++) {
     sum += this[i];
   }
